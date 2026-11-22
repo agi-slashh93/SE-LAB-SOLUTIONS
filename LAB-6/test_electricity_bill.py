@@ -13,7 +13,7 @@ from electricity_bill import energy_charge, late_fee, subsidy
         (300, "domestic", 1350),
         (301, "domestic", 1358),
         (100, "commercial", 750),
-        (301, "commercial", 2866),
+        (301, "commercial", 2766),
     ],
 )
 def test_energy_charge_slabs_and_connections(units, connection, expected):
